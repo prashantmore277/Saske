@@ -1,34 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julian Baker</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
 <body class="background">
-    
+
     <img src="Images/saske.png" alt="saske" width="350" height="300">
-    
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" style="    
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 20px;
+            max-height: fit-content;">
+
+        <!-- Brand -->
+
+        <a class="navbar-brand"
+            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.whats-on-netflix.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fnaruto-on-netflix.jpg&imgrefurl=https%3A%2F%2Fwww.whats-on-netflix.com%2Fnews%2Fnaruto-on-netflix-season-6-release-date-movies-streaming%2F&tbnid=wDXbhCluWrdpaM&vet=12ahUKEwjZ9bT72M_uAhWB1XMBHdn6DREQMygJegUIARDSAQ..i&docid=mnHgO12q1BDy8M&w=1280&h=720&q=naruto&safe=strict&ved=2ahUKEwjZ9bT72M_uAhWB1XMBHdn6DREQMygJegUIARDSAQ"></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Search -->
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" 
+            style="border-right-width: 75px;">
+            <form class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </nav>
+
+    </nav>
+
     <div id=heading>
         <p id="nameid">Saske Uchiha</p>
         <p id="Slogan" style="
         font-style: oblique;
         margin-left: 30px;
         
-        " >Naruto... it's too late, nothing you can say will change me! ...</p>
+        ">Naruto... it's too late, nothing you can say will change me! ...</p>
     </div>
     <div id="about"><b>
-        Sasuke's character has received mixed responses from anime and manga publications. His impressive fighting skills, plot contribution, and rivalry with Naruto Uzumaki received some praise, but he was criticized as a stereotypical rival in the mold of similar characters from other shōnen manga and as exhibiting a cold personality. Nevertheless, Sasuke's characterization in latter parts of the story and more mature personality in the Boruto sequels earned further positive comments. Sasuke has also placed highly in Naruto reader popularity polls and has also been the subject of studies by scholars. Character-based merchandise, including action figures and key chains, has been released.
-    </b>
+            Sasuke's character has received mixed responses from anime and manga publications. His impressive fighting
+            skills, plot contribution, and rivalry with Naruto Uzumaki received some praise, but he was criticized as a
+            stereotypical rival in the mold of similar characters from other shōnen manga and as exhibiting a cold
+            personality. Nevertheless, Sasuke's characterization in latter parts of the story and more mature
+            personality in the Boruto sequels earned further positive comments. Sasuke has also placed highly in Naruto
+            reader popularity polls and has also been the subject of studies by scholars. Character-based merchandise,
+            including action figures and key chains, has been released.
+        </b>
     </div>
 
     <form action="https://www.netflix.com/in/title/70205012">
         <button type="submit" class="btn btn-primary" target="" rel="noreferrer noopener">Stream "Naruto"</button>
-     </form>
+    </form>
 
 
 </body>
+
 </html>
